@@ -81,6 +81,7 @@
     "@typescript-eslint/lines-between-class-members": "off",
     "@typescript-eslint/no-throw-literal": "off",
     "consistent-return": "off",
-    "object-shorthand": "off"
+    "object-shorthand": "off",
+    "no-unused-vars": "warn"
   }
 }
