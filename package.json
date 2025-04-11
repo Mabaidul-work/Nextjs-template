@@ -6,21 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prepare": "husky",
+    "prepare": "husky install",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
+    "check-types": "tsc --noEmit",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{json,md}": [
-      "prettier --write"
-    ]
+    "*.{js,jsx,ts,tsx}": ["eslint --fix", "prettier --write"],
+    "*.{json,md}": ["prettier --write"]
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
