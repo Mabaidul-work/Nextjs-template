@@ -29,40 +29,19 @@ yarn-error.log*
 .env*.local
 .env
 .env.local
-.env.example
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
-
-# jest
-jest.config.js
-jest.setup.js
-
-# docker
-Dockerfile
-.dockerignore
 
 # vscode
 .vscode
 
-# husky
-.husky
-
 # github
 .github
 
-# postcss
-postcss.config.mjs
-
-# tailwind
-tailwind.config.ts
-
-# tsconfig
-tsconfig.json
 
 
 
